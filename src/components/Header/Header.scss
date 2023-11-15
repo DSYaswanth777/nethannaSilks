@@ -1,0 +1,112 @@
+.header {
+  a{
+    text-decoration: none;
+  }
+  .nav_logo {
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      width: 100px;
+      height: 70px;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      font-size: 25px;
+    }
+  }
+  .input {
+    width: 50%;
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      width: 100%;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      width: 100%;
+    }
+    .input-search {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+  .input-text {
+    background-color: #ffff !important;
+  }
+  .search-icon {
+    display: none;
+
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      display: block;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      display: block;
+    }
+  }
+  .mobile-menu-icon {
+    display: none;
+    @media screen and (max-device-width: 480px) and (orientation: portrait) {
+      display: inline;
+    }
+    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      display: inline;
+    }
+  }
+.card-hover{
+  width: 255px;
+  position: absolute;
+  left: 70%;
+  top: 73%;
+  @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    left:10%;
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    left: 50%;
+
+  }
+}
+.cart-card{
+  width: 405px;
+  position: absolute;
+  left:72%;
+  top: 90%;
+  @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    left: 5%;
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    left: 50%;
+
+  }
+}
+}
+.login-btn{
+  background-color: #105E11;
+  color: #ffff;
+}
+.search-results{
+  width: 650px;
+  position: absolute;
+  text-align: start;
+  left: 28%;
+  top: 90%;
+  @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    left: 5%;
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    left: 50%;
+
+  }
+}
+.cartCount{
+position: absolute;
+top: 12px;
+ right: 73px;
+ width: 21px;
+ height: 21px;
+ text-align: center;
+ color: #ffff;
+ background-color: #105E11;
+ @media screen and (max-device-width: 480px) and (orientation: portrait) {
+top: 20px;
+  right: 4px;
+  width: 21px;
+  height: 21px;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  right: 23px;
+}
+}

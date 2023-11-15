@@ -1,0 +1,11 @@
+.totalCard {
+  width: 350px;
+  height: 100%;
+  @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    width: 100%;
+  }
+}
+.pincodeDetails {
+  z-index: 2;
+  top: 70px;
+}

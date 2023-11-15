@@ -1,0 +1,50 @@
+.loader {
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #105E11;
+    border-bottom: 5px solid transparent;
+    animation: load 4s ease-in-out infinite;
+    opacity: 80%;
+  }
+  .loader:nth-child(1) {
+    animation-direction: forwards;
+    width: 250px;
+  }
+  .loader:nth-child(2) {
+    animation-direction: reverse;
+    width: 200px;
+  }
+  .loader:nth-child(3) {
+    animation-direction: forwards;
+    width: 150px;
+  }
+  .loader:nth-child(4) {
+    animation-direction: reverse;
+    width: 100px;
+  }
+  .loader:nth-child(5) {
+    animation-direction: forwards;
+    width: 50px;
+  }
+  
+  @keyframes load {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  .loader_container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+    z-index: 5;
+    // opacity: 50%;
+  }

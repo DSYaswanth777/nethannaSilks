@@ -1,0 +1,58 @@
+.addToCartBtn {
+  font-size: 15px;
+  background-color: #105E11;
+  border: none;
+}
+.addToCartBtn:hover {
+  background-color: #a14863;
+}
+.slider-content {
+  cursor: pointer;
+  width: 18.5rem;
+  @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    width: 21.4rem;
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    width: 21rem;
+  }
+  @media screen and (min-device-width: 319px) and (max-device-width: 374px) {
+    width: 16.8rem;
+  }
+  @media screen and (min-device-width: 360px) and (max-device-width: 393px) {
+    width: 19rem;
+  }
+  @media screen and (min-device-width: 375px) and (max-device-width: 393px) {
+    width: 20rem;
+  }
+  @media screen and (min-device-width: 394px) and (max-device-width: 425px) {
+    width: 23.5rem;
+  }
+}
+.poster_img {
+  width: 294px;
+  height: 300px;
+  @media screen and (max-device-width: 480px) and (orientation: portrait) {
+    width: 340px;
+    height: 280px;
+  }
+  @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    width: 334px;
+    height: 300px;
+  }
+  @media screen and (min-device-width: 319px) and (max-device-width: 374px) {
+    width: 267px;
+    height: 280px;
+  }
+  @media screen and (min-device-width: 360px) and (max-device-width: 393px) {
+    width: 301px;
+    height: 280px;
+  }
+  @media screen and (min-device-width: 375px) and (max-device-width: 393px) {
+    width: 318px;
+    height: 280px;
+  }
+  @media screen and (min-device-width: 394px) and (max-device-width: 425px) {
+    width: 375px;
+    height: 280px;
+  }
+}
