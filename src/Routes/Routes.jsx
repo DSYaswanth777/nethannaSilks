@@ -40,6 +40,10 @@ const PublicRoutes = () => {
     <BrowserRouter>
       <Routes>
         <Route
+        path="/loading"
+        element={<FallBackLoader/>}
+        />
+        <Route
           path="/"
           element={
             <Suspense fallback={<LoadingFallback />}>
